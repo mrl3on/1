@@ -246,7 +246,7 @@
         const asset = document.getElementById('assetDropdown').value.replace(" ", "").replace("/", "").replace("(", "").replace(")", "");
 
         // Generate random signal (CALL or PUT)
-        const signals = [" CALL 🔺 ", " PUT 🔻 "];
+        const signals = [" ➔ CALL 🔺 ", " ➔ PUT 🔻 "];
         const randomSignal = signals[Math.floor(Math.random() * signals.length)];
 
         // Calculate the next minute time
